@@ -1,14 +1,21 @@
-# Salvador Arevalo Navarro — Portfolio
+# Salvador Arevalo Navarro — Developer Portfolio
 
-Foundation for a React + TypeScript + Vite portfolio, prepared for a future GitHub Pages deployment.
+Portfolio of Salvador Arevalo Navarro, Full Stack Developer Jr. Built with React, TypeScript, and Vite.
+
+The site presents professional experience, technical skills, and case studies for Arrendamiento Global, ImDelice, MindHelp, and Abarrotes. The case studies describe project work without publishing private source code.
 
 ## Local development
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-## Publication safeguard
+## Validation
 
-Before any push or GitHub Pages activation, review the repository for credentials, private URLs, client data, screenshots, `.env` files and secrets. Projects marked as `case-study` must not expose private source code.
+```bash
+npm run lint
+npm run build
+```
+
+The production build is generated in `dist/`. GitHub Actions builds and deploys the site to GitHub Pages.
